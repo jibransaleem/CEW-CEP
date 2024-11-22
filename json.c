@@ -21,7 +21,7 @@ void json(char* response,const char* city){
         printf("Temperature data not found!\n");
         exit(1);
      } 
-     printf("%s \nCurrent temperature : %.2f°C\n", city, temp->valuedouble);
+     printf("\t|||||%s||||| \nCurrent temperature : %.2f°C\n", city, temp->valuedouble);
      cJSON *feels_like = cJSON_GetObjectItemCaseSensitive(main,"feels_like");
      if (temp->valuedouble > 30){
          system("notify-send 'High Temperature' '>Be hydrated<' ");
