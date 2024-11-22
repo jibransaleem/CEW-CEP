@@ -17,7 +17,6 @@ int main() {
     exit(1);
   }
   fprintf(raw_f,"%s\n",res);
-  system("notify-send 'hogia ab soja'");
   json(res,city);
   free(res);
   return 0;
