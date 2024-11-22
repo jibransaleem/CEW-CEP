@@ -3,8 +3,8 @@
 OUTPUT_DIR="output_files"
 mkdir -p "$OUTPUT_DIR"
 
-PROGRAM="./w"  # Replace with your program's name or path
-RUN_COUNT=7  # Maximum number of output files to keep
+PROGRAM="./w"  
+RUN_COUNT=7  
 
 TIMESTAMP=$(date +"%Y-%m-%d;%H:%M:%S")
 OUTPUT_FILE="$OUTPUT_DIR/output_$TIMESTAMP.txt"
