@@ -1,5 +1,5 @@
 #!/bin/bash
-
+gcc json.c api.c learning.c -o w -lcurl -lcjson
 OUTPUT_DIR="output_files"
 mkdir -p "$OUTPUT_DIR"
 
