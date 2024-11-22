@@ -18,5 +18,11 @@ Linux Automation:
 
 Dependencies:
     libcurl: For HTTP communication with APIs.
-    c-json: For handling JSON data.
+    cJSON: For handling JSON data.
     Linux environment: Required for automation scripts and task scheduling.
+
+For Automation Purpose:
+    This application automates for a week and saves all the files in out_files folder.After seven days, the oldest file will be deleted.
+    For this automation be accessed user is needed to write the following command in his *crontab editor*.
+
+    '0 0 * * * /path/to/your/out.sh'
